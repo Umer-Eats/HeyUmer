@@ -1,8 +1,10 @@
 import Link from 'next/link';
 import Doodle, { Arrow } from '@/components/Doodle';
+import JsonLd from '@/components/JsonLd';
 import Logo from '@/components/Logo';
 import Reveal from '@/components/Reveal';
 import { awardGroups, programs, projects, stats } from '@/lib/data';
+import { profilePageLd } from '@/lib/seo';
 
 const headlineAwards = [
   { name: 'OTIS Made to Move Communities · World Champion', note: '$35,000' },
@@ -16,6 +18,7 @@ export default function Home() {
 
   return (
     <>
+      <JsonLd data={profilePageLd} />
       <section className="hero wrap">
         <Logo size={240} className="hero-mark" />
         <div className="hero-words">
@@ -26,7 +29,7 @@ export default function Home() {
               <span>for everyone</span>
             </span>
           </h1>
-          <span className="hero-scroll">engineer · researcher · builder</span>
+          <span className="hero-scroll">engineer · researcher · pembroke pines, florida</span>
         </div>
         <Doodle name="neuron" size={210} className="hero-doodle bob boil" />
       </section>
@@ -36,7 +39,7 @@ export default function Home() {
           <Reveal>
             <h2 className="hand section-title">who is umer?</h2>
             <p className="section-sub">
-              a high school student building where electrical engineering meets neuroscience
+              a high school student from Pembroke Pines, Florida, building where electrical engineering meets neuroscience
             </p>
           </Reveal>
           <Reveal className="intro-body" delay={120}>

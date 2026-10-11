@@ -30,7 +30,7 @@ export default function OpengraphImage() {
             inquiry &amp; impact, for everyone
           </div>
           <div style={{ marginTop: 36, fontSize: 26, letterSpacing: 3, color: '#767676' }}>
-            engineer · researcher · builder
+            engineer · researcher · pembroke pines, florida
           </div>
         </div>
       </div>

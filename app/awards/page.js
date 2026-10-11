@@ -5,10 +5,10 @@ import { awardGroups } from '@/lib/data';
 import { pageMeta } from '@/lib/seo';
 
 export const metadata = pageMeta({
-  title: 'Awards & Competitions',
+  title: 'Awards & Competitions Won',
   path: '/awards',
   description:
-    'Awards and competitions won by Umer Qureshi: VEX Robotics Worlds, OTIS Made to Move Communities World Champion, Lemelson-MIT, Science Olympiad, Samsung Solve for Tomorrow and more.',
+    'Umer Qureshi awards: OTIS Made to Move Communities world champion, VEX Robotics Worlds, Lemelson-MIT, Science Olympiad and Samsung Solve for Tomorrow.',
 });
 
 const tally = [
@@ -22,7 +22,7 @@ export default function Awards() {
     <>
       <PageIntro
         title="awards"
-        lede="competitions Umer Qureshi has entered, and what came home"
+        lede="the awards Umer Qureshi of Pembroke Pines, Florida has won, by competition"
         doodle="trophy"
       />
 

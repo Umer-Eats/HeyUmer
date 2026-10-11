@@ -9,7 +9,7 @@ export const metadata = pageMeta({
   title: 'About',
   path: '/about',
   description:
-    'About Umer Qureshi: a high school student combining electrical engineering and neuroscience. How he thinks, his skills, and his coursework.',
+    'About Umer Qureshi of Pembroke Pines, Florida: a student combining electrical engineering and neuroscience. His skills, thinking and coursework.',
 });
 
 export default function About() {
@@ -29,7 +29,7 @@ export default function About() {
           </Reveal>
           <Reveal className="prose" delay={120}>
             <p>
-              Umer Qureshi is a high school student in Florida. He works where{' '}
+              Umer Qureshi is a high school student in Pembroke Pines, Florida. He works where{' '}
               <strong>electrical engineering</strong> and <strong>neuroscience</strong> overlap,
               and he tends to learn a subject by building something real with it.
             </p>

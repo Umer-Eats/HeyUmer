@@ -19,6 +19,8 @@ export default function Footer() {
           </a>
           <span aria-hidden="true">·</span>
           <a href={`mailto:${profile.email}`}>{profile.email}</a>
+          <span aria-hidden="true">·</span>
+          <span>{profile.location.toLowerCase()}</span>
         </p>
       </div>
     </footer>

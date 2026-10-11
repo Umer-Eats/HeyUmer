@@ -20,13 +20,13 @@ const sans = Outfit({
   display: 'swap',
 });
 
-const homeTitle = 'Umer Qureshi — Engineer, Researcher & Builder';
+const homeTitle = 'Umer Qureshi | Pembroke Pines, Florida | Engineer & Researcher';
 
 export const metadata = {
   metadataBase: new URL(siteUrl),
   title: {
     default: homeTitle,
-    template: '%s — Umer Qureshi',
+    template: '%s | Umer Qureshi',
   },
   description: metaDescription,
   applicationName: siteName,

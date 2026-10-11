@@ -6,6 +6,6 @@ export default function sitemap() {
     url: `${siteUrl}${path === '/' ? '' : path}`,
     lastModified,
     changeFrequency: 'monthly',
-    priority: path === '/' ? 1 : 0.8,
+    priority: path === '/' ? 1 : path === '/awards' || path === '/projects' ? 0.9 : 0.8,
   }));
 }

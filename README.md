@@ -54,7 +54,7 @@ All of Umer's information (projects, programs, talks, awards, skills, coursework
 
 | Variable | Value |
 | --- | --- |
-| `NEXT_PUBLIC_SITE_URL` | The final address, e.g. `https://umerqureshi.com`. Used for canonical URLs, the sitemap and social cards. Without it the Vercel production URL is used. |
+| `NEXT_PUBLIC_SITE_URL` | Optional. The site defaults to `https://heyumerqureshi.com` for canonical URLs, the sitemap and social cards; set this only if the domain changes. |
 | `GOOGLE_SITE_VERIFICATION` | The verification code from Google Search Console (see below). |
 
 ## Search engine setup
@@ -79,8 +79,8 @@ Google only lists a site after it has found and crawled it, so do these once aft
 5. Link to the site from the GitHub profile, and from korah.app and coffee-house.app if
    possible. Links from sites Google already knows are what make it trust this one.
 
-Indexing usually takes a few days to a couple of weeks. A custom domain with his name in it,
-such as `umerqureshi.com`, helps a great deal.
+Indexing usually takes a few days to a couple of weeks. The sitemap is at
+https://heyumerqureshi.com/sitemap.xml.
 
 ## Built with
 

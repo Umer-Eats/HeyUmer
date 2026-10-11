@@ -43,7 +43,7 @@ const proof = [
     doodle: 'paper',
     name: 'korah',
     href: '/projects#korah',
-    text: 'A free standardized education tool that has reached more than 100,000 people.',
+    text: 'A free standardized education tool, built with Oscar, Daniel, Bushi and Dev, that has reached more than 100,000 people.',
   },
   {
     doodle: 'eye',

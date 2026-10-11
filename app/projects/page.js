@@ -65,6 +65,13 @@ export default function Projects() {
                     </li>
                   ))}
                 </ul>
+                {p.team ? (
+                  <p className="entry-team">
+                    <span className="eyebrow">the team</span>
+                    Created together by <strong>{p.team.lead}</strong> (team lead),{' '}
+                    {p.team.members.slice(0, -1).join(', ')} and {p.team.members.at(-1)}.
+                  </p>
+                ) : null}
                 {p.links.length ? (
                   <div className="entry-links">
                     {p.links.map((l) => (

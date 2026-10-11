@@ -960,6 +960,18 @@ main {
   margin-top: 24px;
 }
 
+.entry-team {
+  margin-top: 24px;
+  padding-top: 18px;
+  border-top: 1px dashed var(--line);
+  color: var(--soft);
+}
+
+.entry-team strong {
+  color: var(--ink);
+  font-weight: 400;
+}
+
 .entry-links {
   display: flex;
   flex-wrap: wrap;

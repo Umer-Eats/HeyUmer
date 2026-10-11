@@ -62,10 +62,11 @@ export const metadata = {
       'max-video-preview': -1,
     },
   },
-  // Paste the code from Google Search Console into this env var on Vercel.
-  verification: process.env.GOOGLE_SITE_VERIFICATION
-    ? { google: process.env.GOOGLE_SITE_VERIFICATION }
-    : undefined,
+  // Google Search Console ownership token. Public by design; the env var
+  // overrides it if the property is ever re-verified.
+  verification: {
+    google: process.env.GOOGLE_SITE_VERIFICATION || '4H51IGNKOv1iMNKwhQCddPBT-8jm4OJttVo8qogE_sg',
+  },
 };
 
 export const viewport = {
